@@ -9,7 +9,7 @@ export default function Ham() {
   const [ham, setHam] = useState(false);
   return (
     <div
-      className="md:hidden mr-8 text-xl cursor-pointer"
+      className="md:hidden mr-8 text-xl cursor-pointer z-10"
       onClick={() => setHam(!ham)}
     >
       {ham ? <GiCrossMark /> : <FaBars />}
