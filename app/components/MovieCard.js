@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default async function MovieCard(curr) {
-  const { id, title, synopsis, type } = curr.jawSummary;
+  const { id, type, title, synopsis } = curr.jawSummary;
   const imgUrl = curr.jawSummary.backgroundImage.url;
 
   return (

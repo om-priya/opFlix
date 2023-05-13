@@ -22,7 +22,7 @@ export default async function page() {
       </h1>
       <div className="flex flex-wrap justify-evenly">
         {main_result.map((curr) => {
-          return <MovieCard key={curr.id} {...curr} />;
+          return <MovieCard key={curr.jawSummary.id} {...curr} />;
         })}
       </div>
     </main>
