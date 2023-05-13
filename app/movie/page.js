@@ -17,7 +17,7 @@ export default async function page() {
 
   return (
     <main>
-      <h1 className="flex justify-center text-3xl font-semibold mb-8">
+      <h1 className="flex justify-center text-3xl font-semibold mt-8 mb-8">
         Series & Movies
       </h1>
       <div className="flex flex-wrap justify-evenly">
