@@ -6,7 +6,7 @@ export default async function page() {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "120488bd42msh24c180292fea683p1f18e4jsn210039fdafcd",
+      "X-RapidAPI-Key": process.env.RAPID_KEY,
       "X-RapidAPI-Host": "netflix54.p.rapidapi.com",
     },
   };
