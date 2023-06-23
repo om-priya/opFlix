@@ -66,7 +66,7 @@ After installing MongoDB, you may need to perform some initial setup:
 
 # Deployed on Vercel:
 <div align="left">
-<p>The Website had been deployed on vercel platform</p><a href="https://om-portfolio-fawn.vercel.app/">Live Demo</a>
+<p>The Website had been deployed on vercel platform</p><a href="https://op-flix-id6s.vercel.app/">Live Demo</a>
 </div>
 
 <br>
