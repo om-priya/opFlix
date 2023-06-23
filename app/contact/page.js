@@ -3,7 +3,10 @@ import ContactCard from "../components/ContactCard";
 import Form from "../components/Form";
 import { MdEmail, MdChat } from "react-icons/md";
 import { HiChatAlt2 } from "react-icons/hi";
-
+export const metadata = {
+  title: "Contact Page",
+  description: "Contact page for this awesome website",
+};
 export default function page() {
   return (
     <main>

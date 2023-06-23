@@ -1,6 +1,9 @@
 import React from "react";
 import MovieCard from "../components/MovieCard";
-
+export const metadata = {
+  title: "Movies Page",
+  description: "Movies page for this awesome website",
+};
 export default async function page() {
   const url = process.env.RAPID_URL;
   const options = {

@@ -1,5 +1,10 @@
 import Mainbg from "../components/Mainbg";
 import about1 from "../../public/about1.svg";
+
+export const metadata = {
+  title: "About Page",
+  description: "About page for this awesome website",
+};
 export default function Home() {
   return (
     <main>
